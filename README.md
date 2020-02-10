@@ -1,5 +1,7 @@
 # SSB browser demo
 
+## This is a fork of https://github.com/arj03/ssb-browser-demo
+
 ![Screenshot of ssb browser demo][screenshot]
 
 A secure scuttlebutt client interface in the browser. Built using
