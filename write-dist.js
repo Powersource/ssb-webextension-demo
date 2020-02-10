@@ -32,6 +32,7 @@ rimraf("dist", function () {
   // other
   fs.copyFileSync('css/NotoColorEmoji.ttf', 'dist/css/NotoColorEmoji.ttf')
   fs.copyFileSync('manifest.json', 'dist/manifest.json')
+  fs.copyFileSync('background.js', 'dist/background.js')
   fs.copyFileSync('hermies.png', 'dist/hermies.png')
 
   pull(

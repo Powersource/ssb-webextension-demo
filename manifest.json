@@ -1,12 +1,12 @@
 {
-  "name": "SSB browser demo",
-  "short_name": "SSBBrowserDemo",
-  "start_url": ".",
-  "display": "standalone",
-  "background_color": "#fdf6e3",
-  "icons": [{
-    "src": "hermies.png",
-    "type": "image/png",
-    "sizes": "256x256"
-  }]
+  "manifest_version": 2,
+  "name": "SSB Webextension demo",
+  "short_name": "SWD",
+  "version": "0.1",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "icons": {
+    "256": "hermies.png"
+  }
 }
