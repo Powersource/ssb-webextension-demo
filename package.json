@@ -1,7 +1,7 @@
 {
   "name": "ssb-browser-demo",
   "description": "",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "homepage": "https://github.com/arj03/ssb-browser-demo",
   "repository": {
     "type": "git",
@@ -14,8 +14,9 @@
     "pull-abortable": "^4.1.1",
     "pull-stream": "^3.6.14",
     "rimraf": "^3.0.0",
-    "ssb-browser-core": "^1.4.2",
+    "ssb-browser-core": "^2.0.0",
     "ssb-contact-msg": "^1.1.0",
+    "ssb-keys-mnemonic": "^0.2.0",
     "ssb-markdown": "^6.0.3",
     "ssb-mentions": "github:ssbc/ssb-mentions#replace-equals",
     "ssb-ref": "^2.13.3",
