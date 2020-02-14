@@ -10,6 +10,7 @@
     "default_icon": "hermies.png",
     "default_title": "SSB demo"
   },
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self';",
   "icons": {
     "256": "hermies.png"
   }
