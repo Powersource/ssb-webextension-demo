@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "SSB Webextension demo",
   "short_name": "SWD",
-  "version": "0.1",
+  "version": "1.4",
   "background": {
     "scripts": ["background.js"]
   },
