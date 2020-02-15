@@ -176,6 +176,8 @@ module.exports = function () {
 
             // we need the original invite for the people
             SSB.db.peerInvites.openInvite(this.inviteCode, (err, msg) => {
+              if (err) console.error('couldn\'t open invite', err)
+
               let people = []
               if (typeof msg.opened.private === 'object' && msg.opened.private.people)
                 people = msg.opened.private.people
